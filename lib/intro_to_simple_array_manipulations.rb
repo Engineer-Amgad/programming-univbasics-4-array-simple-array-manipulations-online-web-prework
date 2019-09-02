@@ -42,7 +42,7 @@ def using_delete(array, element)
   array.deleteif {=element}
 end
 
-def using_delete_at(array, element)
-  array.delete_at(element)
+def using_delete_at(array, a)
+  array.delete_at(a)
 end
 
